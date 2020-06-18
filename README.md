@@ -23,3 +23,7 @@ of a service running insde the Kubernetes cluster.
 ```
 kubectl run grpc-tools --restart=Never --image=alaa/evans:0.17.0 -n default
 ```
+
+```
+kubectl exec -it -n default grpc-tools bash
+```
