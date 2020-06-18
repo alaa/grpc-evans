@@ -15,7 +15,7 @@ and then exec into the cotnainer to use the evans tool
 docker exec -it $CONTAINER_ID evans -h
 ```
 
-## Run on Kubernetes
+### Run on Kubernetes
 
 This is basically when it is needed the most, to be able to teset and debug and use the gRPC interface
 of a service running insde the Kubernetes cluster.
