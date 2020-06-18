@@ -3,9 +3,7 @@
 Simple container including tools for loadtesting and debugging gRPC services.
 It is based on weaveworks loadtester image but adds `evans` to the tools chain as well.
 
-# usage
-
-## Locally
+### Run locally
 It is possible to use it locally like this
 
 ```
@@ -17,7 +15,7 @@ and then exec into the cotnainer to use the evans tool
 docker exec -it $CONTAINER_ID evans -h
 ```
 
-## Kubernetes
+## Run on Kubernetes
 
 This is basically when it is needed the most, to be able to teset and debug and use the gRPC interface
 of a service running insde the Kubernetes cluster.
