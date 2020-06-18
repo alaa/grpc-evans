@@ -23,5 +23,5 @@ This is basically when it is needed the most, to be able to teset and debug and 
 of a service running insde the Kubernetes cluster.
 
 ```
-kubectl run grpc-tools -it --rm --restart=Never --image=alaa/evans:0.17.0 -n default
+kubectl run grpc-tools --restart=Never --image=alaa/evans:0.17.0 -n default
 ```
